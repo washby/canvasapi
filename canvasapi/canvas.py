@@ -24,7 +24,7 @@ class Canvas(object):
     The main class to be instantiated to provide access to Canvas's API.
     """
 
-    def __init__(self, base_url, access_token):
+    def __init__(self, base_url=None, access_token=None, filename=None):
         """
         :param base_url: The base URL of the Canvas instance's API.
         :type base_url: str
